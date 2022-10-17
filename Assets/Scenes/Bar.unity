@@ -402,6 +402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 147652329}
+  - component: {fileID: 147652330}
   m_Layer: 5
   m_Name: MakeDrink
   m_TagString: Untagged
@@ -431,6 +432,20 @@ RectTransform:
   m_AnchoredPosition: {x: 307.6, y: 5.4469}
   m_SizeDelta: {x: 615.2, y: 589.1062}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &147652330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147652328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f70f60ff3d46d34b919e18267240925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 945448695}
+  equipmentPanel: {fileID: 628893332}
 --- !u!1 &209360112
 GameObject:
   m_ObjectHideFlags: 0

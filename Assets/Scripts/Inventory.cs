@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Inventory : MonoBehaviour
 {
     [SerializeField] List<Item> items;
     [SerializeField] Transform itemsParent;
     [SerializeField] ItemSlot[] itemSlots;
+
+    public event Action<Item> OnItemRightClickedEvent;
+
+    private void Awake(){
+        for(int i = 0; i < itemSlots.Length; i++){
+            itemSlots[i].OnRightClickEvent += OnItemRightClickedEvent;
+        }
+    }
 
     private void OnValidate(){
         if(itemsParent != null){
