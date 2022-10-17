@@ -6,6 +6,7 @@ public enum EquipmentType{
     FirstDrink,
     SecondDrink,
     ThirdDrink,
+    CompletedDrink,
 }
 
 [CreateAssetMenu]

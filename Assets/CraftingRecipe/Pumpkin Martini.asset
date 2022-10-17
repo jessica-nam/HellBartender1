@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73ce352859187144b93b01a5074cbc9, type: 3}
+  m_Name: Pumpkin Martini
+  m_EditorClassIdentifier: 
+  Materials:
+  - Item: {fileID: 11400000, guid: 98070a92d7564c2488dee7085565430f, type: 2}
+    Amount: 1
+  - Item: {fileID: 11400000, guid: 620ef68d78a65e44d9ba287ca7476cf2, type: 2}
+    Amount: 1
+  - Item: {fileID: 11400000, guid: da31304c25e1f6a419cb25e105c1112c, type: 2}
+    Amount: 1
+  Results:
+  - Item: {fileID: 11400000, guid: b94d6f8fd84a7ba4dba240868d8b342c, type: 2}
+    Amount: 1

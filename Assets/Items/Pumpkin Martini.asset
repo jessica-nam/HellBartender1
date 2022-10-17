@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9098bd43244a8e4da754fab4d2c93fa, type: 3}
+  m_Name: Pumpkin Martini
+  m_EditorClassIdentifier: 
+  ItemName: Pumpkin Martini
+  Icon: {fileID: 21300000, guid: dffd2e8e3d1222041abc24209d6f1525, type: 3}
+  Drink: 1
+  DrinkPercent: 0
+  EquipmentType: 3

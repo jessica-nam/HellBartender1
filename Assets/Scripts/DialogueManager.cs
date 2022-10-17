@@ -7,10 +7,19 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
 
+    public static DialogueManager instance;
+
     public TextMeshProUGUI nameText;
+
+    public string characterName;
+
     public TextMeshProUGUI dialogueText;
     //keeps track of descendants 
     private Queue<string> sentences; //FIFO - better format for dialogue
+
+    private void Awake(){
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +29,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue (Dialogue dialogue){
         Debug.Log("Starting convo with " + dialogue.name);
+        characterName = dialogue.name;
         nameText.text = dialogue.name;
 
         sentences.Clear();
